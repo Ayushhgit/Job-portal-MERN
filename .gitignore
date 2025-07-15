@@ -1,0 +1,83 @@
+# -------------------
+# Node.js dependencies
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------
+# Environment files
+# -------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------
+# Build output
+# -------------------
+dist/
+build/
+.temp/
+.cache/
+.next/
+out/
+coverage/
+
+# -------------------
+# Logs
+# -------------------
+logs/
+*.log
+debug.log
+
+# -------------------
+# OS generated files
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# IDEs and Editors
+# -------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -------------------
+# Testing
+# -------------------
+jest-html-reporters-*
+coverage/
+
+# -------------------
+# React-specific
+# -------------------
+*.map
+*.lock
+
+# -------------------
+# MongoDB dump files
+# -------------------
+dump/
+
+# -------------------
+# Uploads or media storage
+# -------------------
+uploads/
+public/uploads/
+
+# -------------------
+# PM2 logs
+# -------------------
+pids/
+*.pid
+*.seed
+
+# -------------------
+# Docker
+# -------------------
+docker-compose.override.yml
+*.env.override
